@@ -4,6 +4,7 @@ body {
     background-color: #f4f4f4;
 }
 
+/* Header */
 header {
     background-color: #4CAF50;
     color: white;
@@ -11,6 +12,7 @@ header {
     padding: 20px;
 }
 
+/* Navigation */
 nav ul {
     list-style: none;
     padding: 0;
@@ -26,10 +28,12 @@ nav ul li a {
     text-decoration: none;
 }
 
+/* Section */
 section {
     padding: 20px;
 }
 
+/* Cards */
 .cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -42,6 +46,7 @@ section {
     border-radius: 10px;
 }
 
+/* Footer */
 footer {
     background-color: #333;
     color: white;
@@ -49,6 +54,7 @@ footer {
     padding: 10px;
 }
 
+/* Responsive */
 @media (max-width: 600px) {
     .cards {
         grid-template-columns: 1fr;
